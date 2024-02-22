@@ -36,7 +36,6 @@
             this.CloseButton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticoneButton2 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.siticoneButton3 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticoneButton4 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticoneButton5 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.SuspendLayout();
@@ -128,23 +127,6 @@
             this.siticoneButton1.Text = "?";
             this.siticoneButton1.Click += new System.EventHandler(this.siticoneButton1_Click_2);
             // 
-            // siticoneButton3
-            // 
-            this.siticoneButton3.BorderRadius = 10;
-            this.siticoneButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneButton3.FillColor = System.Drawing.Color.Silver;
-            this.siticoneButton3.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneButton3.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton3.Location = new System.Drawing.Point(154, 50);
-            this.siticoneButton3.Name = "siticoneButton3";
-            this.siticoneButton3.Size = new System.Drawing.Size(116, 36);
-            this.siticoneButton3.TabIndex = 5;
-            this.siticoneButton3.Text = "Unban";
-            this.siticoneButton3.Click += new System.EventHandler(this.siticoneButton3_Click);
-            // 
             // siticoneButton4
             // 
             this.siticoneButton4.BorderRadius = 10;
@@ -157,9 +139,9 @@
             this.siticoneButton4.ForeColor = System.Drawing.Color.White;
             this.siticoneButton4.Location = new System.Drawing.Point(32, 92);
             this.siticoneButton4.Name = "siticoneButton4";
-            this.siticoneButton4.Size = new System.Drawing.Size(116, 36);
+            this.siticoneButton4.Size = new System.Drawing.Size(238, 36);
             this.siticoneButton4.TabIndex = 6;
-            this.siticoneButton4.Text = "Patch";
+            this.siticoneButton4.Text = "Patch + Unban";
             this.siticoneButton4.Click += new System.EventHandler(this.siticoneButton4_Click);
             // 
             // siticoneButton5
@@ -172,7 +154,7 @@
             this.siticoneButton5.FillColor = System.Drawing.Color.Silver;
             this.siticoneButton5.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton5.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton5.Location = new System.Drawing.Point(154, 92);
+            this.siticoneButton5.Location = new System.Drawing.Point(154, 50);
             this.siticoneButton5.Name = "siticoneButton5";
             this.siticoneButton5.Size = new System.Drawing.Size(116, 36);
             this.siticoneButton5.TabIndex = 7;
@@ -188,7 +170,6 @@
             this.ControlBox = false;
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.siticoneButton4);
-            this.Controls.Add(this.siticoneButton3);
             this.Controls.Add(this.siticoneButton1);
             this.Controls.Add(this.siticoneButton2);
             this.Controls.Add(this.CloseButton);
@@ -203,7 +184,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NetWare loader";
+            this.Text = "m,lm ";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -218,7 +199,6 @@
         private System.Windows.Forms.Label label2;
         private Siticone.Desktop.UI.WinForms.SiticoneButton CloseButton;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton1;
-        private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton3;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton5;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton4;
         public Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton2;
