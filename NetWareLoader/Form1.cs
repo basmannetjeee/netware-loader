@@ -56,6 +56,8 @@ namespace NetWareLoader
             gameInjector.Dispose();
         }
 
+        /*
+
         //UNBAN
         private void siticoneButton3_Click(object sender, EventArgs e)
         {
@@ -82,6 +84,8 @@ namespace NetWareLoader
 
             MessageBox.Show("Finished!");
         }
+
+        */
 
         private void siticoneButton4_Click(object sender, EventArgs e)
         {
