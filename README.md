@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-    <img src="https://github.com/samuelmlntira/netware-loader/assets/153755076/a228c95e-e0a0-4b9c-8a28-e175cf46b003" alt="Logo" width="490.5" height="231">
+    <img src="https://github.com/basmannetjeee/netware-loader/assets/153755076/3168a388-74f1-4754-85b0-a18e22c1d93a" alt="Logo" width="490.5" height="231">
   </a>
 
   <h3>Netware loader</h3>
@@ -19,3 +19,9 @@
   <img src="https://img.shields.io/github/issues/samuelmlntira/NetWare-Loader" alt="Issues">
   <img src="https://img.shields.io/github/license/samuelmlntira/NetWare-Loader" alt="License">
 </div>
+<p align="center">(Downloads were at 40 before I had to reset repository)</p>
+
+
+
+# Planned features:
+- **Auto directory** <sup>(Currently the patcher only works if your game is installed in <code>C:\Program Files (x86)\Steam\steamapps\common\1v1.LOL</code>)</sup>
