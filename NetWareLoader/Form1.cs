@@ -4,9 +4,7 @@ using Microsoft.Win32;
 using System.Windows.Forms;
 using SharpMonoInjector;
 using System.IO;
-using System.Runtime.InteropServices;
 using System.Security.Cryptography;
-using System.Diagnostics.Eventing.Reader;
 
 namespace NetWareLoader
 {
@@ -42,12 +40,13 @@ namespace NetWareLoader
             string lcfpf = "https://github.com/waxnet/NetWare/raw/main/.build/NetWare.dll";
             string lcfpfpf = Path.Combine(lcfp, "NetWare.dll");
 
+            string prcname = "1v1_LOL";
             using (var client = new WebClient())
             {
                 client.DownloadFile(lcfpf, lcfpfpf);
             }
             byte[] assemblyBytes = File.ReadAllBytes(lcfpfpf);
-            Injector gameInjector = new("1v1_LOL");
+            Injector gameInjector = new(prcname);
             IntPtr hasInjected = gameInjector.Inject(
                 File.ReadAllBytes(lcfpfpf),
                 "NetWare",
