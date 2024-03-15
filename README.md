@@ -24,5 +24,3 @@
 # Discord Link
 https://discord.gg/UrRdwhaRvf
 
-# Planned features:
-- **Auto directory** <sup>(Currently the patcher only works if your game is installed in <code>C:\Program Files (x86)\Steam\steamapps\common\1v1.LOL</code>)</sup>
