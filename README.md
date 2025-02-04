@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/github/issues/samuelmlntira/NetWare-Loader" alt="Issues">
   <img src="https://img.shields.io/github/license/samuelmlntira/NetWare-Loader" alt="License">
 </div>
-<p align="center">(Downloads were at 40 before I had to reset repository)</p>
+<p align="center">Project archived because it's been outdated since 22/02/2024</p>
 
 # Discord Link
 https://discord.gg/UrRdwhaRvf
