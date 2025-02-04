@@ -21,6 +21,4 @@
 </div>
 <p align="center">Project archived because it's been outdated since 22/02/2024</p>
 
-# Discord Link
 https://discord.gg/UrRdwhaRvf
-
